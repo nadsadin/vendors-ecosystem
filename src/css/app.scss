@@ -1,0 +1,103 @@
+
+@import "rtl/bootstrap-material";
+@import "rtl/appwork-material";
+@import "rtl/theme-vendors-material";
+@import "colors-material";
+@import "uikit";
+
+.demo-navbar-messages .dropdown-toggle,
+.demo-navbar-notifications .dropdown-toggle,
+.demo-navbar-user .dropdown-toggle,
+.demo-navbar-messages.b-nav-dropdown .nav-link,
+.demo-navbar-notifications.b-nav-dropdown .nav-link,
+.demo-navbar-user.b-nav-dropdown .nav-link {
+  white-space: nowrap;
+}
+
+.demo-navbar-messages .dropdown-menu,
+.demo-navbar-notifications .dropdown-menu {
+  overflow: hidden;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .demo-navbar-messages .dropdown-menu,
+  .demo-navbar-notifications .dropdown-menu {
+    margin-top: .5rem;
+    width: 22rem;
+  }
+
+  .demo-navbar-user .dropdown-menu {
+    margin-top: .25rem;
+  }
+}
+
+.hero-title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+.hero-description{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 34px;
+}
+.h2, h2{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 51px;
+}
+.h3,h3{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+}
+.description{
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 31px;
+}
+.jumbotron{
+  padding: 5rem 3rem;
+}
+.pt-6,.py-6{
+  padding-top: 9rem;
+}
+.pb-6,.py-6{
+  padding-bottom: 9rem;
+}
+.bg-circles-dark{
+  background: url('../img/bg-circles-dark.png') right top repeat-y;
+}
+.bg-circles-light{
+  background: url('../img/bg-circles-light.png') right top repeat-y;
+}
+.card{
+  box-shadow: 0px 0px 30px rgba(155, 155, 155, 0.25);
+  &-title{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  &-body{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  &-blog-title{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #212121;
+  }
+}
+.form-label{
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 17px;
+  color: #757575;
+}
