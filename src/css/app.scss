@@ -101,3 +101,17 @@
   line-height: 17px;
   color: #757575;
 }
+
+@media only screen and (max-width: 767.98px){
+  .hero-title{
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 575.98px){
+  .hero-title{
+    font-size: 50px;
+  }
+  .hero-description{
+    font-size: 26px;
+  }
+}
